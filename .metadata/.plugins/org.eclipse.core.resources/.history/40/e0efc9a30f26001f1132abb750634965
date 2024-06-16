@@ -1,0 +1,16 @@
+import java.awt.*;
+import javax.swing.*;
+public class ImageDemo extends JFrame{
+	private ImagePanel pnl= new ImagePanel();
+	public ImageDemo()
+	{
+		setSize(500,500);
+		add(pnl);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);	
+	}
+	public static void main(String...strings)
+	{
+		ImageDemo demo=new ImageDemo();
+	}
+}

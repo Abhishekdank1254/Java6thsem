@@ -1,0 +1,7 @@
+import java.awt.*;
+import javax.swing.*;
+public class test{
+	private JFrame frm=new JFrame("grade");
+	
+
+}

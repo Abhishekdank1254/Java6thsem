@@ -1,0 +1,10 @@
+import javax.swing.JFrame;
+public class abhi{
+	public static void Main(String arg[]){
+		JFrame frame=new JFrame("test");
+		frame.setSize(300,300);
+		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+		
+	}
+}
